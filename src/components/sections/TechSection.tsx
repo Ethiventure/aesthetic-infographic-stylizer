@@ -7,103 +7,103 @@ const TechSection = () => {
     {
       theme: "Digital Brutalism",
       purpose: "Raw productivity",
-      headingFont: "Syne",
-      bodyFont: "Space Grotesk",
-      mainColor: "#FFBE00",
-      accentColors: ["#5EEAFF", "#FF5C5C"],
-      background: "#1D1F20",
-      textColor: "#FAFBFC",
-      visualDetails: "High-contrast cards, grid overlays, duotone icons",
+      headingFont: "Space Grotesk",
+      bodyFont: "JetBrains Mono",
+      mainColor: "#FF3B30",
+      accentColors: ["#FF9F0A", "#30D158"],
+      background: "#1C1C1E",
+      textColor: "#F2F2F7",
+      visualDetails: "Raw concrete textures, harsh contrasts, industrial typography",
       assets: {
-        icons: ["geometric", "minimal"],
-        patterns: ["grid", "duotone", "high contrast"],
-        textures: ["rough", "digital"],
-        illustrations: ["abstract", "geometric"]
+        icons: ["brutal", "industrial", "raw"],
+        patterns: ["concrete", "brutal", "industrial"],
+        textures: ["concrete", "raw", "industrial"],
+        illustrations: ["brutal", "industrial", "geometric"]
       }
     },
     {
       theme: "Colourful Glassmorphism",
       purpose: "Translucent vibrance",
-      headingFont: "Manrope",
+      headingFont: "Comfortaa",
       bodyFont: "Nunito",
       mainColor: "#7C3AED",
       accentColors: ["#EF476F", "#FFD166", "#38BDF8"],
       background: "#F1F5F9",
       textColor: "#1E293B",
-      visualDetails: "Frosted panels, corner blurs, liquid blobs",
+      visualDetails: "Frosted glass panels, rainbow gradients, soft blurs",
       assets: {
-        icons: ["minimal", "tech"],
-        patterns: ["glass", "blur", "liquid"],
-        textures: ["frosted", "translucent"],
-        illustrations: ["abstract", "fluid"]
+        icons: ["glass", "rounded", "soft"],
+        patterns: ["glass", "gradient", "soft blur"],
+        textures: ["frosted", "glass", "translucent"],
+        illustrations: ["glass", "soft", "translucent"]
       }
     },
     {
-      theme: "Tech E-Learning",
-      purpose: "Clean micro-learning",
-      headingFont: "Sora",
-      bodyFont: "Lexend",
-      mainColor: "#A084EE",
-      accentColors: ["#2563EB", "#0A1128"],
-      background: "#F8FAFC",
-      textColor: "#1E293B",
-      visualDetails: "Modular cards, lilac CTAs, journey indicators",
+      theme: "Tech E-Learning 2025",
+      purpose: "AI-powered micro-learning",
+      headingFont: "Inter",
+      bodyFont: "Inter",
+      mainColor: "#6366F1",
+      accentColors: ["#8B5CF6", "#06B6D4"],
+      background: "#FAFAFA",
+      textColor: "#171717",
+      visualDetails: "Neural network patterns, adaptive interfaces, AI-assisted layouts",
       assets: {
-        icons: ["minimal", "tech"],
-        patterns: ["modular", "progress"],
-        textures: ["clean", "soft"],
-        illustrations: ["educational", "tech"]
+        icons: ["ai", "neural", "adaptive"],
+        patterns: ["neural", "adaptive", "ai"],
+        textures: ["neural", "ai", "adaptive"],
+        illustrations: ["ai", "neural", "futuristic"]
       }
     },
     {
       theme: "AI-First Minimalism",
       purpose: "Adaptive clean UI",
-      headingFont: "Sora",
+      headingFont: "Inter",
       bodyFont: "Inter",
       mainColor: "#4F46E5",
       accentColors: ["#818CF8", "#38BDF8"],
       background: "#F9FAFB",
       textColor: "#111827",
-      visualDetails: "Generative gradients, fluid layouts",
+      visualDetails: "Generative gradients, adaptive layouts, AI-driven aesthetics",
       assets: {
-        icons: ["minimal", "tech"],
-        patterns: ["gradient", "fluid", "adaptive"],
-        textures: ["smooth", "generative"],
-        illustrations: ["AI", "abstract"]
+        icons: ["minimal", "ai", "adaptive"],
+        patterns: ["generative", "adaptive", "minimal"],
+        textures: ["smooth", "adaptive", "minimal"],
+        illustrations: ["ai", "minimal", "adaptive"]
       }
     },
     {
       theme: "Cyberpunk",
       purpose: "Neon techno night",
       headingFont: "Orbitron",
-      bodyFont: "Rajdhani",
-      mainColor: "#0FF0FC",
-      accentColors: ["#FF006E"],
-      background: "#18122B",
-      textColor: "#F4FAFF",
-      visualDetails: "Neon glows, glitch overlays, circuit motifs",
+      bodyFont: "Share Tech Mono",
+      mainColor: "#00FFFF",
+      accentColors: ["#FF00FF", "#FFFF00"],
+      background: "#0A0A0F",
+      textColor: "#E0E0E0",
+      visualDetails: "Neon glows, digital glitches, cybernetic patterns",
       assets: {
-        icons: ["tech", "geometric"],
-        patterns: ["neon", "glitch", "circuit"],
-        textures: ["neon glow", "digital"],
-        illustrations: ["cyberpunk", "futuristic"]
+        icons: ["neon", "cyber", "glitch"],
+        patterns: ["circuit", "neon", "glitch"],
+        textures: ["neon glow", "cyber", "glitch"],
+        illustrations: ["cyberpunk", "neon", "futuristic"]
       }
     },
     {
       theme: "Neo-Pastel Utility",
-      purpose: "Soft functional UI",
-      headingFont: "Nunito",
+      purpose: "Unconventional soft functionality",
+      headingFont: "DM Sans",
       bodyFont: "DM Sans",
-      mainColor: "#A084EE",
-      accentColors: ["#B6E0FE", "#98C9A3"],
-      background: "#F8F9FA",
-      textColor: "#212529",
-      visualDetails: "Color blocks, clean panels",
+      mainColor: "#E879F9",
+      accentColors: ["#60A5FA", "#34D399", "#FBBF24"],
+      background: "#FEFEFE",
+      textColor: "#1F2937",
+      visualDetails: "Unexpected color combinations, asymmetric layouts, playful utility",
       assets: {
-        icons: ["minimal", "geometric"],
-        patterns: ["blocks", "clean"],
-        textures: ["soft", "pastel"],
-        illustrations: ["minimal", "functional"]
+        icons: ["playful", "asymmetric", "colorful"],
+        patterns: ["asymmetric", "playful", "colorful"],
+        textures: ["soft", "playful", "colorful"],
+        illustrations: ["playful", "colorful", "modern"]
       }
     }
   ];
@@ -112,22 +112,22 @@ const TechSection = () => {
     <section 
       className="py-16 px-6 relative overflow-hidden"
       style={{ 
-        background: 'linear-gradient(135deg, #1D1F20 0%, #18122B 100%)',
-        backgroundImage: `url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23FFBE00' fill-opacity='0.1'%3E%3Cpath d='M0 0h20v20H0V0zm20 20h20v20H20V20z'/%3E%3C/g%3E%3C/svg%3E")`
+        background: 'linear-gradient(135deg, #0A0A0F 0%, #1C1C1E 100%)',
+        backgroundImage: `url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2300FFFF' fill-opacity='0.1'%3E%3Cpath d='M0 0h20v20H0V0zm20 20h20v20H20V20z'/%3E%3C/g%3E%3C/svg%3E")`
       }}
     >
       <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 to-purple-500/10"></div>
       <div className="max-w-7xl mx-auto relative">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-cyan-400 mb-4 font-['Syne'] tracking-wide">
+          <h2 className="text-4xl font-bold text-cyan-400 mb-4 font-['Space_Grotesk'] tracking-wide">
             ⚡️ Digital / Tech
           </h2>
-          <p className="text-lg text-cyan-200 font-['Space_Grotesk'] max-w-2xl mx-auto">
+          <p className="text-lg text-cyan-200 font-['JetBrains_Mono'] max-w-2xl mx-auto">
             Future-forward, high-tech aesthetics embracing digital innovation and technological advancement
           </p>
-          <div className="mt-4 text-sm text-cyan-100 bg-slate-800/50 rounded-lg p-3 inline-block backdrop-blur-sm">
-            <strong>Free Asset Sources:</strong> Lucide Icons (tech icons), CSS.gg (minimal icons), 
-            HeroPatterns (geometric patterns), Glassmorphism.com (CSS generators)
+          <div className="mt-4 text-sm text-cyan-100 bg-slate-800/70 rounded-lg p-3 inline-block backdrop-blur-sm border border-cyan-500/30">
+            <strong>Free Asset Sources:</strong> Lucide Icons (tech), Heroicons (modern), Tabler Icons (clean), 
+            CSS.gg (minimal), Glassmorphism.com (generators), Neural.love (AI patterns)
           </div>
         </div>
         

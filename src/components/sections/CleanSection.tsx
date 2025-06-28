@@ -6,87 +6,87 @@ const CleanSection = () => {
   const cleanStyles = [
     {
       theme: "Midcentury Modern",
-      purpose: "Retro clean dash",
-      headingFont: "Montserrat",
-      bodyFont: "Source Sans Pro",
-      mainColor: "#FFB30F",
-      accentColors: ["#18A999", "#E85A4F"],
-      background: "#F7F2E7",
+      purpose: "Retro clean sophistication",
+      headingFont: "Jost",
+      bodyFont: "Inter",
+      mainColor: "#FF6B35",
+      accentColors: ["#F7931E", "#004E64"],
+      background: "#FFFDF7",
       textColor: "#2D2D2D",
-      visualDetails: "Terrazzo tiles, round buttons, atomic patterns",
+      visualDetails: "Atomic patterns, boomerang shapes, bold geometric forms",
       assets: {
-        icons: ["geometric", "retro", "atomic"],
-        patterns: ["terrazzo", "atomic", "geometric"],
-        textures: ["terrazzo", "atomic", "retro"],
-        illustrations: ["atomic", "geometric", "retro"]
+        icons: ["atomic", "geometric", "midcentury"],
+        patterns: ["atomic", "boomerang", "geometric"],
+        textures: ["atomic", "clean", "retro"],
+        illustrations: ["midcentury", "atomic", "geometric"]
       }
     },
     {
       theme: "Nordic Winter",
-      purpose: "Calm icy UI",
-      headingFont: "Fjalla One",
-      bodyFont: "Asap",
-      mainColor: "#2B4257",
-      accentColors: ["#7A98B8", "#E8F4FD"],
-      background: "#FAFDFF",
-      textColor: "#20262E",
-      visualDetails: "Snow dust, frosted glass, crystalline patterns",
+      purpose: "Sophisticated icy minimalism",
+      headingFont: "Work Sans",
+      bodyFont: "Inter",
+      mainColor: "#4A90E2",
+      accentColors: ["#7BB3F0", "#B8D4F1"],
+      background: "#FBFCFD",
+      textColor: "#2C3E50",
+      visualDetails: "Crisp lines, crystalline patterns, sophisticated blues",
       assets: {
-        icons: ["minimal", "clean", "geometric"],
-        patterns: ["snow", "crystalline", "minimal"],
-        textures: ["snow dust", "frosted", "crystalline"],
-        illustrations: ["minimal", "winter", "clean"]
+        icons: ["crystalline", "minimal", "clean"],
+        patterns: ["crystalline", "geometric", "minimal"],
+        textures: ["crystalline", "frosted", "clean"],
+        illustrations: ["minimal", "crystalline", "clean"]
       }
     },
     {
       theme: "Tactile UI",
-      purpose: "Touchable skeuomorph",
-      headingFont: "Baloo Da 2",
-      bodyFont: "Lato",
-      mainColor: "#3490DC",
-      accentColors: ["#6574CD", "#9561E2"],
-      background: "#E8E8E8",
-      textColor: "#3D4852",
-      visualDetails: "3D buttons, depth shadows, tactile textures",
+      purpose: "Sophisticated depth",
+      headingFont: "Inter",
+      bodyFont: "Inter",
+      mainColor: "#667EEA",
+      accentColors: ["#764BA2", "#F093FB"],
+      background: "#F8F9FA",
+      textColor: "#2D3748",
+      visualDetails: "Sophisticated shadows, refined depth, premium materials",
       assets: {
-        icons: ["3d", "tactile", "modern"],
-        patterns: ["3d", "tactile", "depth"],
-        textures: ["3d depth", "tactile", "soft shadows"],
-        illustrations: ["3d", "tactile", "modern"]
+        icons: ["refined", "depth", "premium"],
+        patterns: ["depth", "refined", "premium"],
+        textures: ["refined depth", "premium", "sophisticated"],
+        illustrations: ["refined", "premium", "depth"]
       }
     },
     {
-      theme: "Swiss Minimalism",
-      purpose: "Grid-based precision",
-      headingFont: "IBM Plex Sans",
-      bodyFont: "IBM Plex Sans",
-      mainColor: "#E30613",
-      accentColors: ["#000000", "#FFFFFF"],
+      theme: "Swiss Modernism",
+      purpose: "Precision-based design",
+      headingFont: "Helvetica Neue",
+      bodyFont: "Helvetica Neue",
+      mainColor: "#E74C3C",
+      accentColors: ["#2C3E50", "#FFFFFF"],
       background: "#FFFFFF",
-      textColor: "#000000",
-      visualDetails: "Perfect grids, mathematical precision, primary colors",
+      textColor: "#2C3E50",
+      visualDetails: "Mathematical precision, perfect grids, international style",
       assets: {
-        icons: ["minimal", "geometric", "precise"],
-        patterns: ["grid", "minimal", "precise"],
-        textures: ["clean", "minimal", "precise"],
-        illustrations: ["geometric", "minimal", "swiss"]
+        icons: ["precise", "geometric", "minimal"],
+        patterns: ["grid", "precise", "geometric"],
+        textures: ["clean", "precise", "minimal"],
+        illustrations: ["geometric", "precise", "minimal"]
       }
     },
     {
       theme: "Soft Brutalism",
-      purpose: "Gentle raw concrete",
-      headingFont: "Space Grotesk",
+      purpose: "Refined concrete aesthetics",
+      headingFont: "Inter",
       bodyFont: "Inter",
-      mainColor: "#8B9DC3",
-      accentColors: ["#DFE7FD", "#F7F9FC"],
-      background: "#FAFBFC",
-      textColor: "#3C4858",
-      visualDetails: "Rounded brutalist forms, soft shadows, muted tones",
+      mainColor: "#6C7B7F",
+      accentColors: ["#9CA9B3", "#B8C5D1"],
+      background: "#F7F8FA",
+      textColor: "#2D3436",
+      visualDetails: "Refined brutalist forms, sophisticated concrete textures",
       assets: {
-        icons: ["geometric", "soft", "modern"],
-        patterns: ["soft", "geometric", "minimal"],
-        textures: ["soft", "concrete", "muted"],
-        illustrations: ["soft", "geometric", "modern"]
+        icons: ["refined brutal", "geometric", "sophisticated"],
+        patterns: ["refined", "geometric", "structured"],
+        textures: ["refined concrete", "sophisticated", "structured"],
+        illustrations: ["refined brutal", "geometric", "sophisticated"]
       }
     }
   ];
@@ -95,21 +95,21 @@ const CleanSection = () => {
     <section 
       className="py-16 px-6 relative"
       style={{ 
-        background: 'linear-gradient(135deg, #FAFDFF 0%, #F7F2E7 25%, #E8E8E8 50%, #FFFFFF 75%, #FAFBFC 100%)',
-        backgroundImage: `url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232B4257' fill-opacity='0.02'%3E%3Crect width='120' height='120'/%3E%3Crect x='20' y='20' width='80' height='80'/%3E%3Crect x='40' y='40' width='40' height='40'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
+        background: 'linear-gradient(135deg, #FBFCFD 0%, #FFFDF7 25%, #F8F9FA 50%, #FFFFFF 75%, #F7F8FA 100%)',
+        backgroundImage: `url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%234A90E2' fill-opacity='0.02'%3E%3Crect width='120' height='120'/%3E%3Crect x='20' y='20' width='80' height='80'/%3E%3Crect x='40' y='40' width='40' height='40'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
       }}
     >
       <div className="max-w-7xl mx-auto relative">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-slate-700 mb-4 font-['Fjalla_One'] tracking-wide">
+          <h2 className="text-4xl font-bold text-slate-700 mb-4 font-['Work_Sans'] tracking-wide">
             ❄️ Clean / Minimal
           </h2>
-          <p className="text-lg text-slate-600 font-['Asap'] max-w-2xl mx-auto">
-            Pure, uncluttered aesthetics focused on simplicity, functionality, and timeless elegance
+          <p className="text-lg text-slate-600 font-['Inter'] max-w-2xl mx-auto">
+            Pure, sophisticated aesthetics focused on simplicity, functionality, and timeless elegance
           </p>
           <div className="mt-4 text-sm text-slate-600 bg-slate-50 rounded-lg p-3 inline-block border border-slate-200">
-            <strong>Free Asset Sources:</strong> Feather Icons (minimal icons), Simple Icons (brand icons), 
-            CSS.gg (geometric icons), Unsplash (clean photography), Figma Community (minimal UI kits)
+            <strong>Free Asset Sources:</strong> Feather Icons (minimal icons), Phosphor Icons (refined), 
+            Tabler Icons (clean), CSS.gg (geometric), Figma Community (minimal UI kits)
           </div>
         </div>
         

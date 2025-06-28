@@ -107,7 +107,12 @@ const StyleCard: React.FC<StyleCardProps> = ({ style }) => {
         </div>
         
         {style.assets && (
-          <AssetShowcase assets={style.assets} theme={style.theme} />
+          <AssetShowcase 
+            assets={style.assets} 
+            theme={style.theme}
+            mainColor={style.mainColor}
+            accentColors={style.accentColors}
+          />
         )}
       </div>
     </div>

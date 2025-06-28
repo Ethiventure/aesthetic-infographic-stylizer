@@ -124,6 +124,10 @@ const EcoSection = () => {
           <p className="text-lg text-green-700 font-['Della_Respira'] max-w-2xl mx-auto">
             Sustainable, organic, and biophilic design approaches that connect digital experiences with the natural world
           </p>
+          <div className="mt-4 text-sm text-green-600 bg-green-50 rounded-lg p-3 inline-block">
+            <strong>Free Asset Sources:</strong> unDraw (illustrations), HeroPatterns (organic textures), 
+            Noun Project (botanical icons), Unsplash (nature photography)
+          </div>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

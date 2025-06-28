@@ -74,6 +74,10 @@ const MaximalistSection = () => {
           <p className="text-xl text-purple-800 font-['Chivo'] max-w-2xl mx-auto font-bold">
             BOLD • BRIGHT • UNAPOLOGETICALLY EXTRA • MORE IS MORE
           </p>
+          <div className="mt-4 text-sm text-red-700 bg-yellow-200 rounded-lg p-3 inline-block border-4 border-blue-500 transform -rotate-1">
+            <strong>Free Asset Sources:</strong> Unsplash+ (vibrant photography), Mixkit (colorful illustrations), 
+            OpenDoodles (playful graphics), CSS Pattern Gallery (bold patterns)
+          </div>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

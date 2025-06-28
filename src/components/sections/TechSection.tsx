@@ -125,6 +125,10 @@ const TechSection = () => {
           <p className="text-lg text-cyan-200 font-['Space_Grotesk'] max-w-2xl mx-auto">
             Future-forward, high-tech aesthetics embracing digital innovation and technological advancement
           </p>
+          <div className="mt-4 text-sm text-cyan-100 bg-slate-800/50 rounded-lg p-3 inline-block backdrop-blur-sm">
+            <strong>Free Asset Sources:</strong> Lucide Icons (tech icons), CSS.gg (minimal icons), 
+            HeroPatterns (geometric patterns), Glassmorphism.com (CSS generators)
+          </div>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

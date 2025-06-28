@@ -13,7 +13,13 @@ const MaximalistSection = () => {
       accentColors: ["#FFF600", "#4361EE"],
       background: "#FFF5EA",
       textColor: "#1A1A2E",
-      visualDetails: "Patterned collages, shadow layering"
+      visualDetails: "Patterned collages, shadow layering",
+      assets: {
+        icons: ["decorative", "geometric"],
+        patterns: ["collage", "layered", "complex"],
+        textures: ["bold", "layered shadows"],
+        illustrations: ["collage", "maximalist"]
+      }
     },
     {
       theme: "Dopamine Brights",
@@ -24,7 +30,13 @@ const MaximalistSection = () => {
       accentColors: ["#FFD166", "#06D6A0", "#118AB2"],
       background: "#FFFFFF",
       textColor: "#073B4C",
-      visualDetails: "Micro-animations, bold blocks"
+      visualDetails: "Micro-animations, bold blocks",
+      assets: {
+        icons: ["decorative", "animated"],
+        patterns: ["bright", "energetic", "blocks"],
+        textures: ["vibrant", "animated"],
+        illustrations: ["fun", "colorful"]
+      }
     },
     {
       theme: "Vaporwave",
@@ -35,7 +47,13 @@ const MaximalistSection = () => {
       accentColors: ["#50FFD9", "#B47AEA"],
       background: "#FDEFF9",
       textColor: "#22223B",
-      visualDetails: "Pastel grids, VHS glitches"
+      visualDetails: "Pastel grids, VHS glitches",
+      assets: {
+        icons: ["retro", "geometric"],
+        patterns: ["grid", "glitch", "vhs"],
+        textures: ["retro", "dreamy"],
+        illustrations: ["80s", "vaporwave"]
+      }
     }
   ];
 

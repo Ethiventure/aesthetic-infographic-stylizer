@@ -13,7 +13,13 @@ const TechSection = () => {
       accentColors: ["#5EEAFF", "#FF5C5C"],
       background: "#1D1F20",
       textColor: "#FAFBFC",
-      visualDetails: "High-contrast cards, grid overlays, duotone icons"
+      visualDetails: "High-contrast cards, grid overlays, duotone icons",
+      assets: {
+        icons: ["geometric", "minimal"],
+        patterns: ["grid", "duotone", "high contrast"],
+        textures: ["rough", "digital"],
+        illustrations: ["abstract", "geometric"]
+      }
     },
     {
       theme: "Colourful Glassmorphism",
@@ -24,7 +30,13 @@ const TechSection = () => {
       accentColors: ["#EF476F", "#FFD166", "#38BDF8"],
       background: "#F1F5F9",
       textColor: "#1E293B",
-      visualDetails: "Frosted panels, corner blurs, liquid blobs"
+      visualDetails: "Frosted panels, corner blurs, liquid blobs",
+      assets: {
+        icons: ["minimal", "tech"],
+        patterns: ["glass", "blur", "liquid"],
+        textures: ["frosted", "translucent"],
+        illustrations: ["abstract", "fluid"]
+      }
     },
     {
       theme: "Tech E-Learning",
@@ -35,7 +47,13 @@ const TechSection = () => {
       accentColors: ["#2563EB", "#0A1128"],
       background: "#F8FAFC",
       textColor: "#1E293B",
-      visualDetails: "Modular cards, lilac CTAs, journey indicators"
+      visualDetails: "Modular cards, lilac CTAs, journey indicators",
+      assets: {
+        icons: ["minimal", "tech"],
+        patterns: ["modular", "progress"],
+        textures: ["clean", "soft"],
+        illustrations: ["educational", "tech"]
+      }
     },
     {
       theme: "AI-First Minimalism",
@@ -46,7 +64,13 @@ const TechSection = () => {
       accentColors: ["#818CF8", "#38BDF8"],
       background: "#F9FAFB",
       textColor: "#111827",
-      visualDetails: "Generative gradients, fluid layouts"
+      visualDetails: "Generative gradients, fluid layouts",
+      assets: {
+        icons: ["minimal", "tech"],
+        patterns: ["gradient", "fluid", "adaptive"],
+        textures: ["smooth", "generative"],
+        illustrations: ["AI", "abstract"]
+      }
     },
     {
       theme: "Cyberpunk",
@@ -57,7 +81,13 @@ const TechSection = () => {
       accentColors: ["#FF006E"],
       background: "#18122B",
       textColor: "#F4FAFF",
-      visualDetails: "Neon glows, glitch overlays, circuit motifs"
+      visualDetails: "Neon glows, glitch overlays, circuit motifs",
+      assets: {
+        icons: ["tech", "geometric"],
+        patterns: ["neon", "glitch", "circuit"],
+        textures: ["neon glow", "digital"],
+        illustrations: ["cyberpunk", "futuristic"]
+      }
     },
     {
       theme: "Neo-Pastel Utility",
@@ -68,7 +98,13 @@ const TechSection = () => {
       accentColors: ["#B6E0FE", "#98C9A3"],
       background: "#F8F9FA",
       textColor: "#212529",
-      visualDetails: "Color blocks, clean panels"
+      visualDetails: "Color blocks, clean panels",
+      assets: {
+        icons: ["minimal", "geometric"],
+        patterns: ["blocks", "clean"],
+        textures: ["soft", "pastel"],
+        illustrations: ["minimal", "functional"]
+      }
     }
   ];
 

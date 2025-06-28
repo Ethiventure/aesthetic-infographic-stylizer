@@ -1,5 +1,6 @@
 
 import React from 'react';
+import AssetShowcase from './AssetShowcase';
 
 interface StyleCardProps {
   style: {
@@ -12,6 +13,12 @@ interface StyleCardProps {
     background: string;
     textColor: string;
     visualDetails: string;
+    assets?: {
+      icons?: string[];
+      patterns?: string[];
+      textures?: string[];
+      illustrations?: string[];
+    };
   };
 }
 
@@ -98,6 +105,10 @@ const StyleCard: React.FC<StyleCardProps> = ({ style }) => {
             ))}
           </div>
         </div>
+        
+        {style.assets && (
+          <AssetShowcase assets={style.assets} theme={style.theme} />
+        )}
       </div>
     </div>
   );

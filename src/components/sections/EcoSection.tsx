@@ -13,7 +13,13 @@ const EcoSection = () => {
       accentColors: ["#E8D39E", "#567C5F"],
       background: "#FAF7F0",
       textColor: "#2F2F2F",
-      visualDetails: "SVG vine dividers, parchment textures, sunburst gradients"
+      visualDetails: "SVG vine dividers, parchment textures, sunburst gradients",
+      assets: {
+        icons: ["organic", "decorative"],
+        patterns: ["vines", "sunburst", "art nouveau"],
+        textures: ["parchment", "organic"],
+        illustrations: ["botanical", "solar panels"]
+      }
     },
     {
       theme: "Art Nouveau Solarpunk",
@@ -24,7 +30,13 @@ const EcoSection = () => {
       accentColors: ["#FFD700", "#F9C846"],
       background: "#FCF6EF",
       textColor: "#184D47",
-      visualDetails: "Animated vines, decorative linework, holographic teals"
+      visualDetails: "Animated vines, decorative linework, holographic teals",
+      assets: {
+        icons: ["organic", "tech"],
+        patterns: ["flowing lines", "holographic"],
+        textures: ["metallic", "organic"],
+        illustrations: ["nature tech", "eco futuristic"]
+      }
     },
     {
       theme: "Organic & Health",
@@ -35,7 +47,13 @@ const EcoSection = () => {
       accentColors: ["#B6E0FE", "#98C9A3"],
       background: "#F8FAFC",
       textColor: "#1C4532",
-      visualDetails: "Wavy dividers, subtle leaf patterns, particle floats"
+      visualDetails: "Wavy dividers, subtle leaf patterns, particle floats",
+      assets: {
+        icons: ["minimal", "organic"],
+        patterns: ["waves", "particles", "leaves"],
+        textures: ["soft", "ambient"],
+        illustrations: ["wellness", "health"]
+      }
     },
     {
       theme: "Biophilia",
@@ -46,7 +64,13 @@ const EcoSection = () => {
       accentColors: ["#6FDCBF"],
       background: "#F5FFF6",
       textColor: "#374531",
-      visualDetails: "Mossy shadows, micro-flora SVGs, soft green overlays"
+      visualDetails: "Mossy shadows, micro-flora SVGs, soft green overlays",
+      assets: {
+        icons: ["organic", "minimal"],
+        patterns: ["moss", "flora", "natural"],
+        textures: ["organic", "soft shadows"],
+        illustrations: ["botanical", "nature"]
+      }
     },
     {
       theme: "Folk Digital Revival",
@@ -57,7 +81,13 @@ const EcoSection = () => {
       accentColors: ["#D69E2E", "#805AD5"],
       background: "#FDFAF6",
       textColor: "#2D3748",
-      visualDetails: "Embroidery borders, hand-drawn frames, folk icons"
+      visualDetails: "Embroidery borders, hand-drawn frames, folk icons",
+      assets: {
+        icons: ["decorative", "folk"],
+        patterns: ["embroidery", "folk art"],
+        textures: ["handmade", "craft"],
+        illustrations: ["folk art", "hand drawn"]
+      }
     },
     {
       theme: "Digital Craftcore",
@@ -68,7 +98,13 @@ const EcoSection = () => {
       accentColors: ["#FAF089", "#9F7AEA"],
       background: "#FFFAF0",
       textColor: "#4A5568",
-      visualDetails: "Knit textures, patchwork grids, tactile shadows"
+      visualDetails: "Knit textures, patchwork grids, tactile shadows",
+      assets: {
+        icons: ["decorative", "craft"],
+        patterns: ["knit", "patchwork", "grid"],
+        textures: ["tactile", "cozy"],
+        illustrations: ["craft", "handmade"]
+      }
     }
   ];
 

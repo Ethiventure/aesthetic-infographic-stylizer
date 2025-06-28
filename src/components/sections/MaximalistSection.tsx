@@ -41,20 +41,12 @@ const MaximalistSection = () => {
 
   return (
     <section 
-      className="py-16 px-6 relative overflow-hidden"
+      className="py-16 px-6 relative overflow-hidden animate-pulse"
       style={{ 
         background: 'linear-gradient(45deg, #FFF600 0%, #E63946 25%, #4361EE 50%, #EF476F 75%, #FFD166 100%)',
-        backgroundSize: '400% 400%',
-        animation: 'gradientShift 8s ease infinite'
+        backgroundSize: '400% 400%'
       }}
     >
-      <style jsx>{`
-        @keyframes gradientShift {
-          0% { background-position: 0% 50%; }
-          50% { background-position: 100% 50%; }
-          100% { background-position: 0% 50%; }
-        }
-      `}</style>
       <div className="absolute inset-0 bg-white/80"></div>
       <div className="max-w-7xl mx-auto relative">
         <div className="text-center mb-12">

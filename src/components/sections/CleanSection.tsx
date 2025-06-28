@@ -7,86 +7,86 @@ const CleanSection = () => {
     {
       theme: "Midcentury Modern",
       purpose: "Retro clean sophistication",
-      headingFont: "Jost",
-      bodyFont: "Inter",
-      mainColor: "#FF6B35",
-      accentColors: ["#F7931E", "#004E64"],
-      background: "#FFFDF7",
-      textColor: "#2D2D2D",
-      visualDetails: "Atomic patterns, boomerang shapes, bold geometric forms",
+      headingFont: "Space Grotesk", // Changed from Jost for a more distinctive retro-futuristic feel
+      bodyFont: "Rubik", // Changed from Inter for a slightly more rounded, period-appropriate sans-serif
+      mainColor: "#E57A44", // Warm orange, slightly desaturated (was #FF6B35)
+      accentColors: ["#F7B538", "#006D77", "#D4A373"], // Mustard, Teal, Tan (was #F7931E, #004E64)
+      background: "#FAF0E6", // Creamy off-white (was #FFFDF7)
+      textColor: "#3A3A3A", // Dark warm grey (was #2D2D2D)
+      visualDetails: "Atomic patterns, boomerang shapes, bold geometric forms, teak wood textures, Space Grotesk & Rubik fonts.", // Updated
       assets: {
-        icons: ["atomic", "geometric", "midcentury"],
-        patterns: ["atomic", "boomerang", "geometric"],
-        textures: ["atomic", "clean", "retro"],
-        illustrations: ["midcentury", "atomic", "geometric"]
+        icons: ["atomic starburst", "geometric shape", "midcentury furniture icon", "boomerang", "sputnik"], // More MCM assets
+        patterns: ["atomic age pattern", "boomerang print", "geometric repeat", "abstract line art", "starbursts"], // More MCM assets
+        textures: ["teak wood grain", "nubby textile", "formica", "brushed brass", "vintage linoleum"], // More MCM assets
+        illustrations: ["midcentury modern architecture", "atomic age poster style", "abstract geometric art", "period furniture sketch", "retro character"] // More MCM assets
       }
     },
     {
       theme: "Nordic Winter",
       purpose: "Sophisticated icy minimalism",
-      headingFont: "Work Sans",
-      bodyFont: "Inter",
-      mainColor: "#4A90E2",
-      accentColors: ["#7BB3F0", "#B8D4F1"],
-      background: "#FBFCFD",
-      textColor: "#2C3E50",
-      visualDetails: "Crisp lines, crystalline patterns, sophisticated blues",
+      headingFont: "Spectral SC", // Changed from Work Sans for an icier, rune-like feel
+      bodyFont: "Lato", // Changed from Inter for a clean but slightly warmer sans-serif
+      mainColor: "#5F9EA0", // Muted, icy teal/cadet blue (was #4A90E2)
+      accentColors: ["#A9D6E5", "#CEDEE5", "#FFFFFF"], // Pale blue, Icy grey, White
+      background: "#F8FAFC", // Very light, cool grey (was #FBFCFD)
+      textColor: "#34495E", // Dark slate blue (was #2C3E50)
+      visualDetails: "Crisp lines, crystalline patterns, sophisticated blues and greys, natural textures (ice, snow, light wood), Spectral SC & Lato fonts.", // Updated
       assets: {
-        icons: ["crystalline", "minimal", "clean"],
-        patterns: ["crystalline", "geometric", "minimal"],
-        textures: ["crystalline", "frosted", "clean"],
-        illustrations: ["minimal", "crystalline", "clean"]
+        icons: ["snowflake", "ice crystal", "bare tree silhouette", "aurora borealis swirl", "minimalist mountain"], // More Nordic Winter assets
+        patterns: ["crystalline structure", "frosted glass", "subtle snowdrift", "nordic knit pattern", "ice crackle"], // More Nordic Winter assets
+        textures: ["frosted ice", "soft snow", "light pine wood", "wool knit", "cold stone"], // More Nordic Winter assets
+        illustrations: ["minimalist winter landscape", "abstract ice formation", "nordic animal silhouette", "aurora borealis", "crystalline geometric"] // More Nordic Winter assets
       }
     },
     {
       theme: "Tactile UI",
-      purpose: "Sophisticated depth",
-      headingFont: "Inter",
-      bodyFont: "Inter",
-      mainColor: "#667EEA",
-      accentColors: ["#764BA2", "#F093FB"],
-      background: "#F8F9FA",
-      textColor: "#2D3748",
-      visualDetails: "Sophisticated shadows, refined depth, premium materials",
+      purpose: "Sophisticated depth & interaction", // Updated purpose
+      headingFont: "Manrope", // Changed from Inter for a slightly more distinctive feel
+      bodyFont: "Inter", // Kept Inter for body as it's clean and modern
+      mainColor: "#7C3AED", // Richer purple (was #667EEA)
+      accentColors: ["#A78BFA", "#FBCFE8", "#FDE68A"], // Lavender, Soft Pink, Pale Yellow - sophisticated but soft
+      background: "#F3F4F6", // Light neutral grey (was #F8F9FA)
+      textColor: "#1F2937", // Darker grey for better contrast (was #2D3748)
+      visualDetails: "Sophisticated shadows, refined depth, premium material textures (glass, metal, soft matte), subtle haptics, neumorphic elements, Manrope & Inter fonts.", // Updated
       assets: {
-        icons: ["refined", "depth", "premium"],
-        patterns: ["depth", "refined", "premium"],
-        textures: ["refined depth", "premium", "sophisticated"],
-        illustrations: ["refined", "premium", "depth"]
+        icons: ["3D button", "depth icon", "premium material swatch", "soft shadow element", "interactive toggle"], // More Tactile UI assets
+        patterns: ["subtle depth gradient", "material grain", "neumorphic depression", "layered elements", "soft noise"], // More Tactile UI assets
+        textures: ["frosted glass", "brushed aluminum", "soft matte plastic", "velvet touch", "polished stone"], // More Tactile UI assets
+        illustrations: ["3D interface element", "abstract depth map", "material interaction", "neumorphic component", "layered composition"] // More Tactile UI assets
       }
     },
     {
-      theme: "Swiss Modernism",
+      theme: "Swiss Modernism", // Also known as International Typographic Style
       purpose: "Precision-based design",
-      headingFont: "Helvetica Neue",
-      bodyFont: "Helvetica Neue",
-      mainColor: "#E74C3C",
-      accentColors: ["#2C3E50", "#FFFFFF"],
-      background: "#FFFFFF",
-      textColor: "#2C3E50",
-      visualDetails: "Mathematical precision, perfect grids, international style",
+      headingFont: "Space Grotesk", // Changed from Helvetica Neue for a modern take, still geometric
+      bodyFont: "Manrope", // Changed from Helvetica Neue for a clean, highly legible modern sans-serif
+      mainColor: "#D90429", // Classic Swiss red (was #E74C3C)
+      accentColors: ["#2B2D42", "#EDF2F4", "#8D99AE"], // Dark grey-blue, Off-white, Mid-grey
+      background: "#FFFFFF", // Kept
+      textColor: "#000000", // Classic Swiss black (was #2C3E50)
+      visualDetails: "Mathematical precision, perfect grids, asymmetric layouts, sans-serif typography (Space Grotesk & Manrope), objective photography, strong color blocks.", // Updated
       assets: {
-        icons: ["precise", "geometric", "minimal"],
-        patterns: ["grid", "precise", "geometric"],
-        textures: ["clean", "precise", "minimal"],
-        illustrations: ["geometric", "precise", "minimal"]
+        icons: ["grid icon", "geometric arrow", "plus symbol", "circle element", "precise line"], // More Swiss Modernism assets
+        patterns: ["asymmetric grid", "bold color block", "typographic layout", "geometric division", "negative space"], // More Swiss Modernism assets
+        textures: ["flat color", "smooth paper", "matte finish", "no texture", "clean surface"], // More Swiss Modernism assets
+        illustrations: ["abstract geometric composition", "objective product photography", "typographic poster", "information design", "architectural blueprint style"] // More Swiss Modernism assets
       }
     },
     {
       theme: "Soft Brutalism",
       purpose: "Refined concrete aesthetics",
-      headingFont: "Inter",
-      bodyFont: "Inter",
-      mainColor: "#6C7B7F",
-      accentColors: ["#9CA9B3", "#B8C5D1"],
-      background: "#F7F8FA",
-      textColor: "#2D3436",
-      visualDetails: "Refined brutalist forms, sophisticated concrete textures",
+      headingFont: "Lexend", // Changed from Inter for a slightly softer but still strong geometric sans-serif
+      bodyFont: "Inter", // Kept Inter
+      mainColor: "#737373", // Mid-grey, like smooth concrete (was #6C7B7F)
+      accentColors: ["#A3A3A3", "#E5E5E5", "#404040"], // Lighter greys and a dark grey for contrast
+      background: "#F5F5F5", // Very light grey (was #F7F8FA)
+      textColor: "#262626", // Dark grey (was #2D3436)
+      visualDetails: "Refined brutalist forms, sophisticated concrete textures, monolithic shapes, large typography, minimalist color palettes, Lexend & Inter fonts.", // Updated
       assets: {
-        icons: ["refined brutal", "geometric", "sophisticated"],
-        patterns: ["refined", "geometric", "structured"],
-        textures: ["refined concrete", "sophisticated", "structured"],
-        illustrations: ["refined brutal", "geometric", "sophisticated"]
+        icons: ["monolithic block", "smooth concrete curve", "large geometric shape", "architectural detail", "minimalist structure"], // More Soft Brutalism assets
+        patterns: ["smooth concrete slab", "large scale terrazzo", "minimalist grid", "shadow play", "architectural repetition"], // More Soft Brutalism assets
+        textures: ["polished concrete", "smooth stone", "matte finish", "sandblasted surface", "lightly textured plaster"], // More Soft Brutalism assets
+        illustrations: ["abstract architectural form", "minimalist still life", "large typographic statement", "shadow and light study", "geometric sculpture"] // More Soft Brutalism assets
       }
     }
   ];

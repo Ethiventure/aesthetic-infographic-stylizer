@@ -7,52 +7,52 @@ const FeminineSection = () => {
     {
       theme: "Balletcore",
       purpose: "Delicate events",
-      headingFont: "Cormorant Garamond",
-      bodyFont: "Crimson Text",
-      mainColor: "#D4A5B5",
-      accentColors: ["#E8C4D0", "#C28B9B"],
-      background: "#FAF7F9",
-      textColor: "#4A3B42",
-      visualDetails: "Silk ribbons, tulle textures, pearl accents, graceful curves",
+      headingFont: "Dancing Script", // Changed to a more flowing, graceful script
+      bodyFont: "Tenor Sans", // Changed to an elegant, clean sans-serif for contrast and readability
+      mainColor: "#E6C0CB", // Softer pink (was #D4A5B5)
+      accentColors: ["#F5E2E8", "#D1AAB8", "#FFFFFF"], // Lighter pink, muted mauve, white
+      background: "#FCF8F9", // Very light pinkish white (was #FAF7F9)
+      textColor: "#5E4C52", // Softer, muted dark pink/brown (was #4A3B42)
+      visualDetails: "Silk ribbons, tulle textures, pearl accents, graceful curves, flowing script and elegant sans-serif fonts.", // Updated
       assets: {
-        icons: ["ballet", "delicate", "graceful"],
-        patterns: ["ribbon", "tulle", "delicate"],
-        textures: ["silk", "tulle", "pearl"],
-        illustrations: ["ballet", "graceful", "delicate"]
+        icons: ["ballet shoes", "ribbon bow", "delicate swirl", "pearl", "swan"], // More Balletcore assets
+        patterns: ["flowing ribbon", "tulle netting", "delicate lace", "subtle floral damask", "watercolour wash"], // More Balletcore assets (patterns good, added more)
+        textures: ["soft silk", "sheer tulle", "smooth pearl", "brushed satin", "feather light"], // More Balletcore assets
+        illustrations: ["graceful ballerina", "delicate floral sketch", "swan illustration", "flowing fabric", "ballet pose silhouette"] // More Balletcore assets
       }
     },
     {
       theme: "Coquette",
       purpose: "Playful romance",
-      headingFont: "Satisfy",
-      bodyFont: "Quicksand",
-      mainColor: "#E47DAF",
-      accentColors: ["#F8A8C8", "#D95B8A"],
-      background: "#FFFAFD",
-      textColor: "#8B2853",
-      visualDetails: "Heart motifs, bow details, playful typography, sweet pastels",
+      headingFont: "Satisfy", // Kept, good fit
+      bodyFont: "Alice", // Changed from Quicksand to a more romantic, slightly vintage serif
+      mainColor: "#F4ACB7", // Softer, more romantic pink (was #E47DAF)
+      accentColors: ["#FFCAD4", "#D8BFD8", "#FFE5EC"], // Light pinks, lavender, creamy white
+      background: "#FFF9FB", // Very light, warm pink (was #FFFAFD)
+      textColor: "#7C525C", // Muted berry/rose (was #8B2853)
+      visualDetails: "Heart motifs, bow details, playful yet elegant typography (Satisfy & Alice), sweet pastels, lace, pearls.", // Updated
       assets: {
-        icons: ["heart", "bow", "playful"],
-        patterns: ["hearts", "bows", "playful"],
-        textures: ["soft", "playful", "sweet"],
-        illustrations: ["coquette", "playful", "romantic"]
+        icons: ["dainty heart", "silk bow", "playful cherub", "pearl necklace", "lace detail", "rose"], // More Coquette assets
+        patterns: ["tiny hearts", "delicate bows", "vintage floral", "lace trim", "polka dots"], // More Coquette assets
+        textures: ["soft lace", "smooth satin", "velvet ribbon", "mother of pearl", "antique paper"], // More Coquette assets
+        illustrations: ["romantic cherub", "coquette fashion sketch", "vintage perfume bottle", "floral bouquet", "love letter"] // More Coquette assets
       }
     },
     {
       theme: "Cottagecore",
       purpose: "Cozy vintage",
-      headingFont: "Fredericka the Great",
-      bodyFont: "Gentium Book Basic",
-      mainColor: "#8B6F47",
-      accentColors: ["#A8856B", "#B59A7A"],
-      background: "#F9F6F0",
-      textColor: "#4A3D2F",
-      visualDetails: "Hand-stitched textures, wildflower patterns, vintage charm",
+      headingFont: "IM Fell English SC", // Changed to a more traditional, vintage book style font
+      bodyFont: "Gentium Book Basic", // Kept, good traditional body font
+      mainColor: "#A07E5F", // Muted, earthy brown (was #8B6F47)
+      accentColors: ["#BCAFA0", "#D8C3A5", "#8E8071"], // Dusty rose, cream, sage green (more traditional)
+      background: "#FBF7F0", // Warm, aged off-white (was #F9F6F0)
+      textColor: "#5A4D40", // Dark, warm brown (was #4A3D2F)
+      visualDetails: "Hand-stitched textures, wildflower patterns, vintage charm, traditional bookish fonts (IM Fell English SC & Gentium Book Basic).", // Updated
       assets: {
-        icons: ["cottage", "vintage", "handmade"],
-        patterns: ["floral", "vintage", "handmade"],
-        textures: ["linen", "vintage", "handmade"],
-        illustrations: ["cottage", "vintage", "botanical"]
+        icons: ["thatched cottage", "vintage teacup", "handmade quilt square", "wildflower sprig", "garden basket"], // More Cottagecore assets
+        patterns: ["ditsy floral", "gingham check", "vintage botanical print", "cross-stitch sampler", "toile de jouy"], // More Cottagecore assets
+        textures: ["worn linen", "aged wood", "handmade paper", "pressed flowers", "knitted wool"], // More Cottagecore assets
+        illustrations: ["cozy cottage scene", "vintage botanical drawing", "handmade craft item", "garden harvest", "forest animals"] // More Cottagecore assets
       }
     },
     {

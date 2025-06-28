@@ -7,52 +7,52 @@ const TechSection = () => {
     {
       theme: "Digital Brutalism",
       purpose: "Raw productivity",
-      headingFont: "Space Grotesk",
-      bodyFont: "JetBrains Mono",
-      mainColor: "#FF3B30",
-      accentColors: ["#FF9F0A", "#30D158"],
-      background: "#1C1C1E",
-      textColor: "#F2F2F7",
-      visualDetails: "Raw concrete textures, harsh contrasts, industrial typography",
+      headingFont: "Space Grotesk", // Kept as per user, but will make style more brutal
+      bodyFont: "JetBrains Mono", // Good fit for brutalism
+      mainColor: "#FF0000", // Classic brutalist red
+      accentColors: ["#0000FF", "#FFFF00", "#FFFFFF"], // Brutalist blue, yellow, white
+      background: "#000000", // Brutalist black
+      textColor: "#FFFFFF", // High contrast white
+      visualDetails: "Harsh contrasts, raw unstyled elements, system fonts, bold colors, grid-based layouts, no frills, Space Grotesk & JetBrains Mono.", // Updated
       assets: {
-        icons: ["brutal", "industrial", "raw"],
-        patterns: ["concrete", "brutal", "industrial"],
-        textures: ["concrete", "raw", "industrial"],
-        illustrations: ["brutal", "industrial", "geometric"]
+        icons: ["brutal cursor", "raw pixel", "grid block", "warning sign"], // More brutalist icons
+        patterns: ["stark grid", "warning stripes", "pixelated noise", "raw concrete block"], // More brutalist patterns
+        textures: ["raw concrete", "exposed metal", "static noise", "pixelated screen"], // More brutalist textures
+        illustrations: ["brutal geometric shape", "raw wireframe", "glitch art", "command line interface"] // More brutalist illustrations
       }
     },
     {
       theme: "Colourful Glassmorphism",
       purpose: "Translucent vibrance",
-      headingFont: "Comfortaa",
-      bodyFont: "Nunito",
-      mainColor: "#7C3AED",
-      accentColors: ["#EF476F", "#FFD166", "#38BDF8"],
-      background: "#F1F5F9",
+      headingFont: "Comfortaa", // Changed to a more rounded font
+      bodyFont: "Nunito", // Kept, good rounded option
+      mainColor: "#7C3AED", // Vibrant purple
+      accentColors: ["#EF476F", "#FFD166", "#38BDF8", "#06D6A0"], // Pink, Yellow, Blue, Green
+      background: "rgba(241, 245, 249, 0.6)", // Light background with some transparency for glass effect
       textColor: "#1E293B",
-      visualDetails: "Frosted glass panels, rainbow gradients, soft blurs",
+      visualDetails: "Frosted glass panels, rainbow gradients, soft blurs, rounded corners, layered elements, Comfortaa & Nunito fonts.", // Updated
       assets: {
-        icons: ["glass", "rounded", "soft"],
-        patterns: ["glass", "gradient", "soft blur"],
-        textures: ["frosted", "glass", "translucent"],
-        illustrations: ["glass", "soft", "translucent"]
+        icons: ["glass orb", "rounded button", "soft shadow icon", "translucent layer"], // Better glassmorphism assets
+        patterns: ["aurora gradient", "soft bokeh", "frosted noise", "layered glass panels"], // Better glassmorphism assets
+        textures: ["frosted glass", "smooth acrylic", "blurry background", "holographic foil"], // Better glassmorphism assets
+        illustrations: ["3D glass shape", "soft abstract blob", "translucent interface element", "colorful light flare"] // Better glassmorphism assets
       }
     },
     {
       theme: "Tech E-Learning 2025",
       purpose: "AI-powered micro-learning",
-      headingFont: "Inter",
-      bodyFont: "Inter",
-      mainColor: "#6366F1",
-      accentColors: ["#8B5CF6", "#06B6D4"],
-      background: "#FAFAFA",
-      textColor: "#171717",
-      visualDetails: "Neural network patterns, adaptive interfaces, AI-assisted layouts",
+      headingFont: "Inter", // Kept, clean and modern
+      bodyFont: "Inter", // Kept
+      mainColor: "#00A9E0", // Bright, futuristic blue
+      accentColors: ["#8B5CF6", "#34D399", "#F59E0B"], // Purple, Green, Orange
+      background: "#0F172A", // Dark, techy background
+      textColor: "#E2E8F0", // Light text for contrast
+      visualDetails: "Neural network patterns, adaptive interfaces, AI-assisted layouts, dynamic gradients, micro-interactions, data visualizations, Inter font.", // Updated for 2025 feel
       assets: {
-        icons: ["ai", "neural", "adaptive"],
-        patterns: ["neural", "adaptive", "ai"],
-        textures: ["neural", "ai", "adaptive"],
-        illustrations: ["ai", "neural", "futuristic"]
+        icons: ["ai brain", "neural node", "adaptive icon", "data chart", "glowing particle"], // More futuristic icons
+        patterns: ["neural network", "data stream", "generative art", "dynamic particle system", "circuit board"], // More futuristic patterns
+        textures: ["glowing circuit", "digital mesh", "plexus background", "holographic shimmer", "polished metal"], // More futuristic textures
+        illustrations: ["ai assistant", "futuristic dashboard", "data visualization", "abstract neural art", "learning pathway"] // More futuristic illustrations
       }
     },
     {
@@ -64,46 +64,46 @@ const TechSection = () => {
       accentColors: ["#818CF8", "#38BDF8"],
       background: "#F9FAFB",
       textColor: "#111827",
-      visualDetails: "Generative gradients, adaptive layouts, AI-driven aesthetics",
+      visualDetails: "Generative gradients, adaptive layouts, AI-driven aesthetics, subtle micro-interactions, intelligent information display.", // Slightly updated
       assets: {
-        icons: ["minimal", "ai", "adaptive"],
-        patterns: ["generative", "adaptive", "minimal"],
-        textures: ["smooth", "adaptive", "minimal"],
-        illustrations: ["ai", "minimal", "adaptive"]
+        icons: ["minimal ai", "adaptive dot", "smart chip", "generative shape"], // Added assets
+        patterns: ["subtle generative", "adaptive grid", "minimal data flow", "calm neural net"], // Added assets
+        textures: ["smooth matte", "faint gradient", "soft glow", "brushed aluminum"], // Added assets
+        illustrations: ["ai learning curve", "minimal adaptive interface", "abstract data node", "intelligent agent icon"] // Added assets
       }
     },
     {
       theme: "Cyberpunk",
       purpose: "Neon techno night",
-      headingFont: "Orbitron",
-      bodyFont: "Share Tech Mono",
-      mainColor: "#00FFFF",
-      accentColors: ["#FF00FF", "#FFFF00"],
-      background: "#0A0A0F",
-      textColor: "#E0E0E0",
-      visualDetails: "Neon glows, digital glitches, cybernetic patterns",
+      headingFont: "Orbitron", // Kept, good fit
+      bodyFont: "Share Tech Mono", // Kept, good fit
+      mainColor: "#00FFFF", // Cyan
+      accentColors: ["#FF00FF", "#FFFF00", "#FA00FF"], // Magenta, Yellow, Hot Pink
+      background: "#0A0A0F", // Very dark blue/black
+      textColor: "#E0E0E0", // Light grey/white
+      visualDetails: "Neon glows, digital glitches, cybernetic patterns, HUD elements, dark cityscapes, Orbitron & Share Tech Mono fonts.", // Updated
       assets: {
-        icons: ["neon", "cyber", "glitch"],
-        patterns: ["circuit", "neon", "glitch"],
-        textures: ["neon glow", "cyber", "glitch"],
-        illustrations: ["cyberpunk", "neon", "futuristic"]
+        icons: ["neon line", "cyber eye", "glitch square", "circuit chip", "HUD element"], // More cyberpunk assets
+        patterns: ["digital circuit", "neon grid", "glitch screen", "binary rain", "holographic data"], // More cyberpunk assets
+        textures: ["neon tube glow", "cybernetic metal", "static glitch", "wet asphalt", "carbon fiber"], // More cyberpunk assets
+        illustrations: ["cyberpunk city", "neon sign", "futuristic character", "hacker interface", "robotic arm"] // More cyberpunk assets
       }
     },
     {
       theme: "Neo-Pastel Utility",
       purpose: "Unconventional soft functionality",
-      headingFont: "DM Sans",
-      bodyFont: "DM Sans",
-      mainColor: "#E879F9",
-      accentColors: ["#60A5FA", "#34D399", "#FBBF24"],
-      background: "#FEFEFE",
-      textColor: "#1F2937",
-      visualDetails: "Unexpected color combinations, asymmetric layouts, playful utility",
+      headingFont: "DM Sans", // Kept
+      bodyFont: "DM Sans", // Kept
+      mainColor: "#FF8CBA", // Softer, more unusual pink (was #E879F9)
+      accentColors: ["#6EE7B7", "#93C5FD", "#FDE047", "#C4B5FD"], // Mint, Sky Blue, Bright Yellow, Lavender - more unusual pastel combo
+      background: "#FFFBF2", // Very light, warm off-white
+      textColor: "#4B5563", // Muted dark grey (was #1F2937)
+      visualDetails: "Unexpected pastel combinations, asymmetric layouts, playful utility, rounded bubbly shapes, friendly icons, DM Sans font.", // Updated for more interest
       assets: {
-        icons: ["playful", "asymmetric", "colorful"],
-        patterns: ["asymmetric", "playful", "colorful"],
-        textures: ["soft", "playful", "colorful"],
-        illustrations: ["playful", "colorful", "modern"]
+        icons: ["playful blob", "asymmetric star", "colorful switch", "friendly cloud", "geometric pastel"], // More unusual icons
+        patterns: ["offset pastel shapes", "playful Memphis-like", "colorful confetti", "asymmetric grid", "wavy lines"], // More unusual patterns
+        textures: ["soft matte plastic", "gummy texture", "powdered sugar", "smooth clay", "iridescent film"], // More unusual textures
+        illustrations: ["abstract pastel composition", "playful character", "modern utility icon set", "unconventional UI element", "friendly data graph"] // More unusual illustrations
       }
     }
   ];

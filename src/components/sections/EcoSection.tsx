@@ -24,86 +24,86 @@ const EcoSection = () => {
     {
       theme: "Art Nouveau Solarpunk",
       purpose: "Eco-ornate optimism",
-      headingFont: "Playfair Display",
-      bodyFont: "Libre Baskerville",
+      headingFont: "Amarante", // Changed
+      bodyFont: "Della Respira", // Changed
       mainColor: "#7A6A47",
       accentColors: ["#C49A6C", "#8B6914"],
       background: "#F7F1E3",
       textColor: "#2F2B1A",
-      visualDetails: "Flowing organic lines, botanical motifs, warm earth tones, carved textures",
+      visualDetails: "Flowing organic lines, botanical motifs, warm earth tones, carved textures, Amarante and Della Respira fonts", // Updated
       assets: {
-        icons: ["nouveau", "organic", "solar"],
-        patterns: ["flowing curves", "botanical", "carved"],
-        textures: ["carved wood", "etched brass", "organic"],
-        illustrations: ["nouveau botanical", "solar organic", "carved"]
+        icons: ["nouveau", "organic", "solar", "amarante", "della respira"], // Added font names as indicative assets
+        patterns: ["flowing curves", "botanical", "carved", "art nouveau floral"], // Added more specific pattern
+        textures: ["carved wood", "etched brass", "organic", "aged paper"], // Added texture
+        illustrations: ["nouveau botanical", "solar organic", "carved", "solarpunk city"] // Added illustration
       }
     },
     {
       theme: "Organic & Health",
       purpose: "Soft wellness UIs",
-      headingFont: "Caveat",
-      bodyFont: "Kalam",
-      mainColor: "#7A8471",
-      accentColors: ["#A8B5A0", "#6B7A62"],
-      background: "#F8F6F2",
-      textColor: "#3E4A37",
-      visualDetails: "Hand-drawn elements, natural textures, earthy organic feel",
+      headingFont: "Caveat", // Kept, as it's handwritten
+      bodyFont: "Patrick Hand", // Changed to another handwritten option
+      mainColor: "#7A8471", // Earthy green
+      accentColors: ["#A8B5A0", "#BFA78A"], // Earthy green and brown
+      background: "#FDFBF7", // Softer off-white
+      textColor: "#4A4034", // Darker earthy brown
+      visualDetails: "Hand-drawn elements, natural textures, earthy organic feel, handwritten fonts like Caveat and Patrick Hand.", // Updated
       assets: {
-        icons: ["hand drawn", "organic", "natural"],
-        patterns: ["organic", "natural", "hand drawn"],
-        textures: ["earth", "organic", "natural"],
-        illustrations: ["hand drawn", "organic", "wellness"]
+        icons: ["hand drawn", "leaf", "pebble", "sprout"], // More specific organic icons
+        patterns: ["organic shapes", "subtle speckle", "watercolour wash"], // Earthy patterns
+        textures: ["recycled paper", "pressed flower", "soft moss", "light wood grain"], // Earthy textures
+        illustrations: ["hand drawn botanicals", "wellness symbols", "nature scenes"] // Updated
       }
     },
     {
       theme: "Biophilia",
       purpose: "Botanical immersion",
-      headingFont: "Amatic SC",
-      bodyFont: "Patrick Hand",
-      mainColor: "#6B8F47",
-      accentColors: ["#8FAF6B", "#A8C285"],
-      background: "#F6F9F3",
+      headingFont: "Amatic SC", // Kept, hand-drawn style
+      bodyFont: "Patrick Hand", // Kept, hand-drawn style
+      mainColor: "#587D44", // Deeper green
+      accentColors: ["#8FAF6B", "#A8C285", "#E3DBCB"], // Greens and an earthy beige
+      background: "#F4F8F0", // Lighter green-tinted white
       textColor: "#3A4A2F",
-      visualDetails: "Hand-sketched botanicals, organic shapes, living textures",
+      visualDetails: "Hand-sketched botanicals, organic shapes, living textures, focus on hand-drawn assets.", // Updated
       assets: {
-        icons: ["hand drawn", "botanical", "organic"],
-        patterns: ["sketched leaves", "organic", "botanical"],
-        textures: ["hand drawn", "organic", "natural"],
-        illustrations: ["botanical sketch", "hand drawn", "organic"]
+        icons: ["hand drawn leaf", "sketched flower", "organic branch", "water drop"], // More specific hand-drawn icons
+        patterns: ["sketched leaves", "botanical line art", "organic cell", "subtle wood grain"], // More hand-drawn patterns
+        textures: ["handmade paper", "leaf vein", "rough bark", "watercolour"], // More hand-drawn textures
+        illustrations: ["detailed botanical sketch", "hand drawn nature elements", "biophilic patterns", "ink drawings"] // More hand-drawn illustrations
       }
     },
     {
       theme: "Folk Digital Revival",
       purpose: "Handcrafted narratives",
-      headingFont: "Fredericka the Great",
-      bodyFont: "Gentium Book Basic",
-      mainColor: "#B85C3E",
-      accentColors: ["#8B4A2F", "#D4926B"],
+      headingFont: "Fredericka the Great", // Kept
+      bodyFont: "Gentium Book Basic", // Kept
+      mainColor: "#B85C3E", // Earthy red-brown
+      accentColors: ["#8B4A2F", "#D4926B", "#E4C8A8"], // Earthy tones
       background: "#FAF5F0",
       textColor: "#3D2A1E",
-      visualDetails: "Traditional folk patterns, handmade textures, rustic warmth",
+      visualDetails: "Traditional folk patterns, handmade textures, rustic warmth, Fredericka the Great and Gentium Book Basic fonts.", // Updated
       assets: {
-        icons: ["folk", "traditional", "handmade"],
-        patterns: ["folk art", "traditional", "handmade"],
-        textures: ["woven", "carved", "traditional"],
-        illustrations: ["folk art", "traditional", "handcrafted"]
+        icons: ["folk bird", "traditional flower", "handmade star", "carved wood"], // More specific folk icons
+        patterns: ["folk art motif", "traditional embroidery", "handmade quilt", "block print"], // More specific patterns
+        textures: ["woven fabric", "carved wood", "traditional pottery", "handmade paper"], // More specific textures
+        illustrations: ["folk art scene", "traditional storytelling", "handcrafted characters", "nature motifs"] // More specific illustrations
       }
     },
     {
       theme: "Digital Craftcore",
       purpose: "Cozy tactile digital",
-      headingFont: "Fredericka the Great",
-      bodyFont: "Gentium Book Basic",
-      mainColor: "#A0674B",
-      accentColors: ["#8B5A3C", "#C28B6F"],
+      headingFont: "Fredericka the Great", // Kept
+      bodyFont: "Gentium Book Basic", // Kept
+      mainColor: "#A0674B", // Warm brown
+      accentColors: ["#8B5A3C", "#C28B6F", "#D8BFA8"], // Warm browns and beige
       background: "#F9F4F0",
       textColor: "#4A3429",
-      visualDetails: "Handwoven textures, craft patterns, artisanal warmth",
+      visualDetails: "Handwoven textures, craft patterns, artisanal warmth, cozy and tactile feel with more asset examples.", // Updated
       assets: {
-        icons: ["craft", "handmade", "woven"],
-        patterns: ["woven", "knit", "craft"],
-        textures: ["woven", "knit", "handmade"],
-        illustrations: ["craft", "handmade", "artisan"]
+        icons: ["knitting needles", "sewing thimble", "clay pot", "handmade brush"], // More craft-related icons
+        patterns: ["woven basket", "knit stitch", "cross-stitch", "macrame knot"], // More craft-related patterns
+        textures: ["chunky knit", "felted wool", "raw linen", "handmade clay"], // More craft-related textures
+        illustrations: ["handmade crafts", "artisanal tools", "cozy home scene", "crafting process"] // More craft-related illustrations
       }
     }
   ];

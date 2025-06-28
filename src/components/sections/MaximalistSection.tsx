@@ -7,52 +7,52 @@ const MaximalistSection = () => {
     {
       theme: "Maximalist",
       purpose: "Bold layered art",
-      headingFont: "Fredoka One",
-      bodyFont: "Nunito",
-      mainColor: "#E63946",
-      accentColors: ["#FFF600", "#4361EE", "#F72585"],
-      background: "#FFF5EA",
-      textColor: "#1A1A2E",
-      visualDetails: "Layered patterns, bold typography, explosive color combinations",
+      headingFont: "Bungee", // Changed from Fredoka One to a bolder, more expressive font
+      bodyFont: "Chivo", // User was unsure about Chivo, but it's a solid sans-serif that can work with a very bold heading.
+      mainColor: "#FF0054", // Vibrant Pink
+      accentColors: ["#FFBD00", "#00D4FF", "#AD00FF", "#00FF85"], // Gold, Cyan, Purple, Bright Green
+      background: "#F0F0F0", // Light neutral grey to let colors pop
+      textColor: "#1E1E1E", // Dark grey
+      visualDetails: "Layered patterns, clashing colors, bold typography (Bungee & Chivo), diverse textures, 'more is more' philosophy.", // Updated
       assets: {
-        icons: ["bold", "layered", "explosive"],
-        patterns: ["layered", "complex", "bold"],
-        textures: ["layered", "bold", "complex"],
-        illustrations: ["maximalist", "bold", "layered"]
+        icons: ["bold statement", "layered shape", "explosive graphic", "ornate detail", "eclectic mix"], // More maximalist icons
+        patterns: ["clashing patterns", "animal print", "opulent floral", "bold geometric", "textured collage"], // More maximalist patterns
+        textures: ["velvet", "faux fur", "glitter", "brocade", "mixed media collage"], // More maximalist textures
+        illustrations: ["surreal collage", "bold abstract art", "pop art graphic", "ornate fashion sketch", "eclectic still life"] // More maximalist illustrations
       }
     },
     {
       theme: "Dopamine Brights",
       purpose: "Energetic fun UI",
-      headingFont: "Fredoka One",
-      bodyFont: "Quicksand",
-      mainColor: "#FF6B6B",
-      accentColors: ["#4ECDC4", "#45B7D1", "#96CEB4", "#FFEAA7"],
+      headingFont: "Fredoka One", // Kept, good for playful
+      bodyFont: "Quicksand", // Kept, good for playful
+      mainColor: "#FF5733", // Energetic Orange-Red
+      accentColors: ["#33FF57", "#3357FF", "#FF33A1", "#FFFF33", "#A133FF"], // Lime Green, Bright Blue, Hot Pink, Bright Yellow, Vibrant Purple - a more intense palette
       background: "#FFFFFF",
-      textColor: "#2D3436",
-      visualDetails: "Saturated colors, playful shapes, energetic animations",
+      textColor: "#2A2A2A", // Slightly darker for better contrast
+      visualDetails: "Highly saturated colors, playful shapes, energetic animations, positive vibes, chunky elements.", // Updated
       assets: {
-        icons: ["playful", "bright", "energetic"],
-        patterns: ["bright", "playful", "energetic"],
-        textures: ["vibrant", "playful", "energetic"],
-        illustrations: ["playful", "bright", "fun"]
+        icons: ["smiling face", "bright star", "playful squiggle", "energetic bolt", "colorful confetti"], // More dopamine assets
+        patterns: ["bold stripes", "colorful polka dots", "wavy lines", "abstract shapes", "confetti burst"], // More dopamine assets
+        textures: ["shiny plastic", "gummy texture", "smooth gloss", "sparkle", "vibrant gradient"], // More dopamine assets
+        illustrations: ["playful character", "bright abstract", "fun icon set", "energetic scene", "positive message graphic"] // More dopamine assets
       }
     },
     {
       theme: "Vaporwave",
       purpose: "Dreamy retro web",
-      headingFont: "Orbitron",
-      bodyFont: "VT323",
-      mainColor: "#FF006E",
-      accentColors: ["#8338EC", "#3A86FF", "#06FFA5"],
-      background: "#1A0B33",
-      textColor: "#E0AAFF",
-      visualDetails: "Retro-futuristic grids, neon gradients, 80s nostalgia",
+      headingFont: "Orbitron", // Kept, good fit
+      bodyFont: "Roboto Mono", // Changed from VT323 to a slightly more versatile but still retro mono font for better 80s feel
+      mainColor: "#FF00C1", // Neon Pink (was #FF006E)
+      accentColors: ["#00F2FF", "#9D00FF", "#3FFF00"], // Neon Cyan, Neon Purple, Neon Green (adjusted from #8338EC, #3A86FF, #06FFA5)
+      background: "#1A0B33", // Kept
+      textColor: "#E0AAFF", // Kept
+      visualDetails: "Retro-futuristic grids, neon gradients, 80s nostalgia, pixel art, classic computer UI elements, Orbitron & Roboto Mono.", // Updated
       assets: {
-        icons: ["retro", "neon", "80s"],
-        patterns: ["grid", "neon", "retro"],
-        textures: ["neon", "retro", "holographic"],
-        illustrations: ["80s", "vaporwave", "retro"]
+        icons: ["8-bit heart", "neon palm tree", "glitchy cursor", "cassette tape", "CRT monitor"], // More Vaporwave assets
+        patterns: ["neon grid lines", "sunset gradient", "checkerboard floor", "pixelated static", "geometric 80s"], // More Vaporwave assets
+        textures: ["holographic foil", "CRT screen noise", "polished chrome", "neon light glow", "grainy VHS"], // More Vaporwave assets
+        illustrations: ["80s sports car", "palm tree sunset", "abstract neon landscape", "retro computer interface", "pixel art character"] // More Vaporwave assets
       }
     }
   ];

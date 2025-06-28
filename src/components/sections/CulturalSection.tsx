@@ -10,10 +10,16 @@ const CulturalSection = () => {
       headingFont: "Bungee",
       bodyFont: "Ubuntu",
       mainColor: "#00C9A7",
-      accentColors: ["#FFB800"],
+      accentColors: ["#FFB800", "#FF6B35"],
       background: "#150050",
       textColor: "#F3F6FB",
-      visualDetails: "Circuit motifs, metallic sheen"
+      visualDetails: "Circuit motifs, metallic sheen, bold geometry",
+      assets: {
+        icons: ["tech", "geometric", "cultural"],
+        patterns: ["circuit", "geometric", "cultural"],
+        textures: ["metallic", "neon glow", "futuristic"],
+        illustrations: ["futuristic", "cultural", "tech"]
+      }
     },
     {
       theme: "Japandi",
@@ -24,31 +30,94 @@ const CulturalSection = () => {
       accentColors: ["#EDE4CF", "#B5B682"],
       background: "#F6F5F3",
       textColor: "#2C2727",
-      visualDetails: "Paper textures, muted panels"
+      visualDetails: "Paper textures, muted panels, zen simplicity",
+      assets: {
+        icons: ["minimal", "organic", "zen"],
+        patterns: ["minimal grid", "organic", "zen"],
+        textures: ["paper", "organic", "clean"],
+        illustrations: ["minimal", "zen", "organic"]
+      }
+    },
+    {
+      theme: "Moroccan Modern",
+      purpose: "Geometric cultural fusion",
+      headingFont: "Amiri",
+      bodyFont: "Tajawal",
+      mainColor: "#D4691A",
+      accentColors: ["#1B365D", "#F4E4BC"],
+      background: "#FAF7F0",
+      textColor: "#2D1810",
+      visualDetails: "Zellige patterns, geometric tiles, warm earth tones",
+      assets: {
+        icons: ["geometric", "decorative", "cultural"],
+        patterns: ["geometric", "cultural", "ornate"],
+        textures: ["ornate", "cultural", "warm"],
+        illustrations: ["geometric", "cultural", "ornate"]
+      }
+    },
+    {
+      theme: "Scandinavian Folk",
+      purpose: "Nordic heritage design",
+      headingFont: "Fjalla One",
+      bodyFont: "Source Sans Pro",
+      mainColor: "#C5282F",
+      accentColors: ["#F5F5DC", "#2F4F4F"],
+      background: "#FEFEFE",
+      textColor: "#1C1C1C",
+      visualDetails: "Folk patterns, woodwork textures, traditional motifs",
+      assets: {
+        icons: ["folk", "minimal", "cultural"],
+        patterns: ["folk art", "geometric", "cultural"],
+        textures: ["handmade", "organic", "traditional"],
+        illustrations: ["folk art", "traditional", "cultural"]
+      }
+    },
+    {
+      theme: "Indian Modernism",
+      purpose: "Contemporary cultural blend",
+      headingFont: "Libre Baskerville",
+      bodyFont: "Hind",
+      mainColor: "#FF6347",
+      accentColors: ["#4169E1", "#FFD700"],
+      background: "#FFFEF7",
+      textColor: "#2F1B14",
+      visualDetails: "Mandala patterns, vibrant colors, modern typography",
+      assets: {
+        icons: ["decorative", "cultural", "ornate"],
+        patterns: ["cultural", "ornate", "vibrant"],
+        textures: ["rich", "ornate", "cultural"],
+        illustrations: ["cultural", "ornate", "vibrant"]
+      }
     }
   ];
 
   return (
     <section 
-      className="py-16 px-6"
+      className="py-16 px-6 relative"
       style={{ 
-        background: 'linear-gradient(135deg, #150050 0%, #F6F5F3 100%)',
-        backgroundImage: `url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2300C9A7' fill-opacity='0.1'%3E%3Cpath d='M0 0h40v40H0V0zm40 40h40v40H40V40zm0-40h2l-2 2V0zm0 4l4-4h2l-6 6V4zm0 4l8-8h2L40 10V8zm0 4L52 0h2L40 14v-2zm0 4L56 0h2L40 18v-2zm0 4L60 0h2L40 22v-2zm0 4L64 0h2L40 26v-2zm0 4L68 0h2L40 30v-2zm0 4L72 0h2L40 34v-2zm0 4L76 0h2L40 38v-2zm0 4L80 0v2L42 40h-2zm4 0L80 4v2L46 40h-2zm4 0L80 8v2L50 40h-2zm4 0l28-28v2L54 40h-2zm4 0l24-24v2L58 40h-2zm4 0l20-20v2L62 40h-2zm4 0l16-16v2L66 40h-2zm4 0l12-12v2L70 40h-2zm4 0l8-8v2l-6 6h-2zm4 0l4-4v2L74 40h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
+        background: 'linear-gradient(135deg, #150050 0%, #F6F5F3 50%, #FAF7F0 100%)',
+        backgroundImage: `url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2300C9A7' fill-opacity='0.08'%3E%3Cpath d='M0 0h40v40H0V0zm40 40h40v40H40V40z'/%3E%3Cpath d='M20 20c0 11.046-8.954 20-20 20s-20-8.954-20-20 8.954-20 20-20 20 8.954 20 20zm40 0c0 11.046-8.954 20-20 20s-20-8.954-20-20 8.954-20 20-20 20 8.954 20 20z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
       }}
     >
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto relative">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold bg-gradient-to-r from-teal-400 to-amber-400 bg-clip-text text-transparent mb-4 font-['Bungee']">
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-teal-400 via-amber-400 to-orange-400 bg-clip-text text-transparent mb-4 font-['Bungee']">
             🌐 Cross-Cultural / Diasporic
           </h2>
           <p className="text-lg text-gray-300 font-['Ubuntu'] max-w-2xl mx-auto">
             Aesthetics that bridge cultures, celebrate diversity, and honor global design traditions
           </p>
+          <div className="mt-4 text-sm text-cyan-100 bg-slate-800/50 rounded-lg p-3 inline-block backdrop-blur-sm">
+            <strong>Free Asset Sources:</strong> The Noun Project (cultural icons), Unsplash (cultural photography), 
+            Freepik (cultural patterns), OpenIDEO (diverse illustrations), Cultural Heritage Icons
+          </div>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {culturalStyles.map((style, index) => (
-            <StyleCard key={index} style={style} />
+            <div key={index} className="transform hover:scale-105 transition-transform duration-300">
+              <StyleCard style={style} />
+            </div>
           ))}
         </div>
       </div>
